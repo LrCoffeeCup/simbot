@@ -1,0 +1,24 @@
+simbot:
+  core:
+    bots: 2407142428:wo2021hd
+  component:
+    mirai:
+      protocol: android_pad
+      #      useSimbotBotLog: false
+      #      useSimbotNetworkLog: false
+      message:
+        cache:
+          # 是否启动默认消息缓存。默认为false，即不启用。
+          enable: true
+          # 私聊消息Map最大容量
+          priCapacity: 16
+          # 私聊消息缓存初始容量
+          priInitialCapacity: 16
+          # 群消息Map最大容量
+          groCapacity: 128
+          # 群消息缓存初始容量
+          groInitialCapacity: 128
+          # 私聊缓存负载因子。默认为 1.0。
+          priLoadFactor: 1.0
+          # 群消息缓存负载因子。默认为 1.0。
+          groLoadFactor: 1.0
